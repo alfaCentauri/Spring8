@@ -3,8 +3,9 @@ package AnotacionBean;
 public class DirectorFinanciero implements Empleados {
 	private CreacionInformeFinanciero informeFinanciero;
 
-	/**Constructor con inyección de dependencias.
-	 * */
+	/**
+	 * Constructor con inyección de dependencias.
+	 **/
 	public DirectorFinanciero(CreacionInformeFinanciero informeFinanciero) {
 		super();
 		this.informeFinanciero = informeFinanciero;
@@ -12,7 +13,7 @@ public class DirectorFinanciero implements Empleados {
 
 	@Override
 	public String getTareas() {
-		return "Gestión y gestión de las operaciones financieras de la empresa.";
+		return "Gestión y dirección de las operaciones financieras de la empresa.";
 	}
 
 	@Override

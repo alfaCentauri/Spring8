@@ -4,6 +4,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * Clase de configuración de Spring para demostrar el uso de la anotación Configuration, ComponentScan y Bean.
+ * @author Ricardo Presilla.
+ * @version 1.0.
+ **/
 @Configuration
 @ComponentScan("AnotacionBean")
 public class EmpleadosConfig {
